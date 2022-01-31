@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.header-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.petForm {
+  display: flex;
+  /* flex-direction: row; */
+}
+.required {
+  display: flex;
+  flex-direction: column;
+}
+
+.optional {
+  display: flex;
+  flex-direction: column;
+}
