@@ -15,7 +15,7 @@ const Main = (props) => {
                 setLoaded(true);
             })
             .catch(err => console.log(err));
-    }, [pets]);
+    }, []);
 
     const removeFromDom = petId => {
         setPets(pets.filter(pet => pet._id !== petId));
